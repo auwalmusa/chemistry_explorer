@@ -3,7 +3,8 @@ import openai
 from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie  # Ensure this import is done correctly
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+# Set the OpenAI API key using the secret
+openai.api_key = st.secrets["openai"]["api_key"]
 
 st.set_page_config(page_title="Chemistry Explorer 🧪", page_icon=":microscope:", layout='wide')
 # Function to load Lottie animations
