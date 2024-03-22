@@ -1,5 +1,6 @@
 import streamlit as st
 import openai
+import numpy as np
 from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie  # Ensure this import is done correctly
